@@ -35,8 +35,13 @@ __published:	// IDE-managed Components
         TLabel *lifeP;
         TLabel *lifeK;
         TTimer *TimerPob;
-        TTimer *Timer4;
-        TLabel *Porogenie;
+        TLabel *Poragenie;
+        TImage *FonMenu;
+        TLabel *PATRIOT;
+        TButton *Begin;
+        TButton *Vibor;
+        TButton *Exit;
+        TButton *Options;
         void __fastcall Timer1Timer(TObject *Sender);
         void __fastcall Timer2Timer(TObject *Sender);
         void __fastcall FormCreate(TObject *Sender);
@@ -46,7 +51,8 @@ __published:	// IDE-managed Components
         void __fastcall Pusk2Click(TObject *Sender);
         void __fastcall Timer3Timer(TObject *Sender);
         void __fastcall TimerPobTimer(TObject *Sender);
-        void __fastcall Timer4Timer(TObject *Sender);
+        void __fastcall BeginClick(TObject *Sender);
+        void __fastcall ExitClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
