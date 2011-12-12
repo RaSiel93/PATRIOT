@@ -16,7 +16,7 @@ class TForm1 : public TForm
 __published:	// IDE-managed Components
         TImage *Image1;
         TTimer *Timer1;
-        TImage *Image2;
+        TImage *Samolet;
         TTimer *Timer2;
         TImage *Raketa1;
         TTimer *TPusk1;
@@ -42,6 +42,17 @@ __published:	// IDE-managed Components
         TButton *Vibor;
         TButton *Exit;
         TButton *Options;
+        TImage *Image2;
+        TImage *Image3;
+        TImage *Mini1;
+        TLabel *LBrest;
+        TImage *Mini3;
+        TLabel *LMinsk;
+        TImage *Mini2;
+        TLabel *LGrodno;
+        TButton *B1;
+        TButton *B2;
+        TImage *Image4;
         void __fastcall Timer1Timer(TObject *Sender);
         void __fastcall Timer2Timer(TObject *Sender);
         void __fastcall FormCreate(TObject *Sender);
@@ -53,6 +64,12 @@ __published:	// IDE-managed Components
         void __fastcall TimerPobTimer(TObject *Sender);
         void __fastcall BeginClick(TObject *Sender);
         void __fastcall ExitClick(TObject *Sender);
+        void __fastcall ViborClick(TObject *Sender);
+        void __fastcall Mini1Click(TObject *Sender);
+        void __fastcall Mini2Click(TObject *Sender);
+        void __fastcall Mini3Click(TObject *Sender);
+        void __fastcall B1Click(TObject *Sender);
+        void __fastcall B2Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
